@@ -1,0 +1,14 @@
+div {
+    margin: 10px;
+  background: #466368;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, purple);
+  border-radius: 6px;
+  height: 20px;
+}
+.gradient{
+  margin: 10px;
+  background: #466368;
+  background: linear-gradient(to right, red 0%, red 20%, orange 20%,orange 40%, yellow 40%, yellow 60%, green 60%,green 70%, blue 70%,blue 80%, purple 80%, purple 100%);
+  border-radius: 6px;
+  height: 20px;
+}
