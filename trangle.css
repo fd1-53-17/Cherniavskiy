@@ -1,0 +1,81 @@
+.triangle {
+  border-top: 25px solid red;
+    border-bottom: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-left: 25px solid transparent;
+  width: 0;
+  height: 0;
+}
+.triangle1 {
+  border-top: 25px solid transparent;
+    border-bottom: 25px solid green;
+  border-right: 25px solid transparent;
+  border-left: 25px solid transparent;
+  width: 0;
+  height: 0;
+}
+.triangle2 {
+  border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-left: 25px solid yellow;
+  width: 0;
+  height: 0;
+}
+.triangle3 {
+  border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+  border-right: 25px solid blue;
+  border-left: 25px solid transparent;
+  width: 0;
+  height: 0;
+}
+.triangle4 {
+  border-top: 25px solid transparent;
+    border-bottom: 25px solid green;
+  border-right: 25px solid green;
+  border-left: 25px solid transparent;
+  width: 0;
+  height: 0;
+}
+.triangle5 {
+  border-top: 25px solid red;
+    border-bottom: 25px solid green;
+  border-right: 25px solid blue;
+  border-left: 25px solid yellow;
+  width: 0;
+  height: 0;
+}
+.circle {
+  border-top: 25px solid red;
+    border-bottom: 25px solid green;
+  border-right: 25px solid blue;
+  border-left: 25px solid yellow;
+  border-radius: 25px;
+  width: 0;
+  height: 0;
+}
+.shapka{
+  border-top: 25px solid red;
+    border-bottom: 25px solid green;
+  border-right: 25px solid blue;
+  border-left: 25px solid yellow;
+  border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  width: 0;
+  height: 0;
+  
+}.shapka2{
+  border-top: 25px solid red;
+    border-bottom: 25px solid green;
+  border-right: 25px solid blue;
+  border-left: 25px solid yellow;
+  border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  width: 0;
+  height: 0;
+}  
+.polu{
+width: 50px; height: 50px;
+border-radius: 90%;
+box-shadow: 4px 4px 0 0 #FEC712;}
