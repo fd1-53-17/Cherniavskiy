@@ -25,7 +25,6 @@ a:visited {
 }
 .page, .pageN, .block {
     display: inline-block;
-
 }
 .page {
     float: left;
