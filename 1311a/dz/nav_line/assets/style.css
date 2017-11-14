@@ -1,0 +1,35 @@
+ul {
+    margin: 0;
+}
+a, a:visited {
+    width: 15px;
+    padding: 6px;
+    text-align: center;
+    height: 15px;
+    display: block;
+    text-decoration-line: none;
+}
+a {
+    background: rgb(220, 229, 181);
+    color: #978027;
+    border: 1px #aeb78f solid;
+}
+a:visited {
+    background: rgb(255, 165, 41);
+    color: white;
+    border: 1px #2f1409 solid;
+}
+.nav {
+    width: 95%;
+    margin: 0 auto;
+}
+.page, .pageN, .block {
+    display: inline-block;
+
+}
+.page {
+    float: left;
+}
+.pageN {
+    float: right;
+}
