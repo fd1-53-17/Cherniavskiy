@@ -1,0 +1,62 @@
+table {
+    height: 90vmin;
+    width: 90vmin;
+    border: 1px black solid;
+}
+.line1, .line2, .line3, .line4, .line5, .line6, .line7, .line8 {
+    width: 80vmin;
+    height: calc(80vmin / 8);
+    padding: 0;
+}
+.black {
+    background-color: rgba(0, 0, 0, 0.27);
+}
+.white, .black {
+    display: inline-block;
+    width: calc(80vmin / 8);
+    height: calc(80vmin / 8);
+    -webkit-border-vertical-spacing: 0;
+    -webkit-border-horizontal-spacing: 0;
+}
+.pawn, .pawn2, .tower, .tower2, .horse, .horse2, .el, .el2, .queen, .queen2, .king, .king2 {
+    background: url(./chess.png) no-repeat;
+    background-size: 500%;
+    width: 100%;
+    height: 100%;
+}
+.pawn {
+    background-position: 106% -21%;
+}
+.pawn2 {
+    background-position: 107% 129%;
+}
+.tower {
+    background-position: 40% -21%;
+}
+.tower2 {
+    background-position: 40% 129%;
+}
+.horse {
+    background-position: 85% -21%;
+}
+.horse2 {
+    background-position: 85% 129%;
+}
+.el {
+    background-position: 62% -30%;
+}
+.el2 {
+    background-position: 62% 129%;
+}
+.queen {
+    background-position: -4% -30%;
+}
+.queen2 {
+    background-position: -4% 129%;
+}
+.king {
+    background-position: 18% -30%;
+}
+.king2 {
+    background-position: 18% 129%;
+}
