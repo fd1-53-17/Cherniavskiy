@@ -1,4 +1,4 @@
-header, footer, .wrapper {
+header, footer, main {
     width: 1000px;
     height: 150px;
     background-color: #bfbfbf;
@@ -11,7 +11,7 @@ header {
 footer {
     height:  225px;
 }
-.wrapper {
+main {
     height: 1010px;
     border-bottom: solid 1px black;
 }
@@ -36,29 +36,23 @@ footer {
     height: 600px;
     float: left;
 }
-.menu {
-    width: 184px;
-    height: 330px;
+.menu, .block5, .block {
     background-color: #6e6e6e;
     margin-left: 20px;
     float: left;
     margin-top: 25px;
+}
+.menu {
+    width: 184px;
+    height: 330px;
 }
 .block5 {
     width: 755px;
     height: 200px;
-    background-color: #6e6e6e;
-    margin-left: 20px;
-    float: left;
-    margin-top: 25px;
 }
 .block {
     width: 135px;
     height: 150px;
-    background-color: #6e6e6e;
-    margin-left: 20px;
-    float: left;
-    margin-top: 27px;
 }
 .block7 {
     width: 184px;
@@ -82,32 +76,23 @@ footer {
     margin-left: 605px;
     margin-top: -200px;
 }
+.fot1, .fot2 {
+    width: 304px;
+    height: 180px;
+    margin-left: 20px;
+    float: left;
+    margin-top: 25px;
+}
 .fot1 {
-    width: 304px;
-    height: 180px;
     background-color: #6e6e6e;
-    margin-left: 20px;
-    float: left;
-    margin-top: 25px;
 }
-.fot2 {
-    width: 304px;
-    height: 180px;
-    margin-left: 20px;
-    float: left;
-    margin-top: 25px;
-}
-.fot12 {
+.fot12, .fot13 {
     width: 304px;
     height: 77px;
     background-color: #6e6e6e;
     float: left;
 }
 .fot13 {
-    width: 304px;
-    height: 77px;
-    background-color: #6e6e6e;
-    float: left;
     margin-top: 25px;
 }
 
