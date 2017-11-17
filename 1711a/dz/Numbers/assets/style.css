@@ -1,0 +1,17 @@
+.row {
+    position: relative;
+    height: 20px;
+}
+div {
+    position: absolute;
+}
+.l1 {
+    left: 0;
+}
+.l2 {
+    left: 10px;
+}
+.l3 {
+    left: 20px;
+}
+
