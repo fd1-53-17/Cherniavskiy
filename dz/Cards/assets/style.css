@@ -1,0 +1,23 @@
+.back1, .back2, .back3 {
+    background-image: url('https://github.com/antonkulakov-it/library/blob/master/cards2.png?raw=true');
+    background-repeat: no-repeat;
+    width: 145px;
+    height: 194px;
+    position: absolute;
+}
+.back1 {
+    background-position: -287px -195px;
+    z-index: 30;
+}
+.back2 {
+    background-position: -144px -971px;
+    left: 100px;
+    top: 150px;
+    z-index: 20;
+}
+.back3 {
+    background-position: -435px -2329px;
+    left: 200px;
+    top: 300px;
+    z-index: 10;
+}
