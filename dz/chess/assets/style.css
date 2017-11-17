@@ -1,0 +1,62 @@
+.wrapper {
+    width: 420px;
+    height:400px;
+    position: relative;
+}
+.line {
+    width: 420px;
+    height: 50px;
+    position: relative;
+}
+.black {
+    background-color: rgba(0, 0, 0, 0.27);
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+.white {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+.pawn, .pawn2, .tower, .tower2, .horse, .horse2, .el, .el2, .queen, .queen2, .king, .king2 {
+    background: url(./chess.png) no-repeat;
+    width: 50px;
+    height: 50px;
+}
+.pawn {
+    background-position: -260px -50px;
+}
+.pawn2 {
+    background-position: -260px 0;
+}
+.tower {
+    background-position: -100px -50px;
+}
+.tower2 {
+    background-position: -100px 0;
+}
+.horse {
+    background-position: -205px -50px;
+}
+.horse2 {
+    background-position: -205px 0;
+}
+.el {
+    background-position: -155px -50px;
+}
+.el2 {
+    background-position: -155px 0;
+}
+.queen {
+    background-position: -50px -50px;
+}
+.queen2 {
+    background-position: -50px 0;
+}
+.king {
+    background-position: 5px -50px;
+}
+.king2 {
+    background-position: 5px 0;
+}
