@@ -12,7 +12,7 @@
     position: relative;
     float: left;
 }
-div:nth-child(n):nth-child(-n+8):nth-child(even), div:nth-child(n+9):nth-child(-n+16):nth-child(odd),
+div:nth-child(n):nth-child(-n+9):nth-child(even), div:nth-child(n+9):nth-child(-n+16):nth-child(odd),
 div:nth-child(n+17):nth-child(-n+24):nth-child(even), div:nth-child(n+25):nth-child(-n+32):nth-child(odd),
 div:nth-child(n+33):nth-child(-n+40):nth-child(even), div:nth-child(n+41):nth-child(-n+48):nth-child(odd),
 div:nth-child(n+49):nth-child(-n+56):nth-child(even), div:nth-child(n+57):nth-child(-n+64):nth-child(odd) {
@@ -109,52 +109,37 @@ div:nth-of-type(61):not(.chessTable) {
 div:nth-of-type(61):not(.chessTable):hover {
     background-position: -55px 12px;
 }
+div:nth-of-type(1):after, div:nth-of-type(2):after,div:nth-of-type(3):after, div:nth-of-type(4):after,
+div:nth-of-type(5):after, div:nth-of-type(6):after,div:nth-of-type(7):after, div:nth-of-type(8):after {
+    display: block;
+    margin-top: -20px;
+    margin-left: 36px;
+}
 div:nth-of-type(1):after {
     content: "A";
     display: block;
-    margin-top: -58px;
+    margin-top: -60px;
     margin-left: 36px;
 }
 div:nth-of-type(2):after {
      content: "B";
-     display: block;
-     margin-top: -20px;
-     margin-left: 36px;
 }
 div:nth-of-type(3):after {
      content: "C";
-     display: block;
-     margin-top: -20px;
-     margin-left: 36px;
 }
 div:nth-of-type(4):after {
       content: "D";
-      display: block;
-      margin-top: -20px;
-      margin-left: 36px;
 }
 div:nth-of-type(5):after {
        content: "E";
-       display: block;
-       margin-top: -20px;
-       margin-left: 36px;
 }
 div:nth-of-type(6):after {
         content: "F";
-        display: block;
-        margin-top: -20px;
-        margin-left: 36px;
 }
 div:nth-of-type(7):after {
     content: "G";
-    display: block;
-    margin-top: -20px;
-    margin-left: 36px;
 }
 div:nth-of-type(8):after {
     content: "H";
-    display: block;
-    margin-top: -20px;
-    margin-left: 36px;
 }
 
