@@ -76,7 +76,7 @@ div:nth-of-type(60):not(.chessTable):hover, div:nth-of-type(4):not(.chessTable) 
 div:nth-of-type(61):not(.chessTable), div:nth-of-type(5):not(.chessTable):hover {
     background-position: 18% 129%;
 }
-div:nth-of-type(61):not(.chessTable):hover, div:nth-of-type(5):not(.chessTable) {
+div:nth-of-type(61):not(.chessTable):hover, div:nth-of-type(5):not(.chessTable)  {
     background-position: 18% -30%;
 }
 div:nth-of-type(8n-1):after {
