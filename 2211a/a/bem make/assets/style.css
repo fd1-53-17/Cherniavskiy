@@ -1,0 +1,22 @@
+.content {
+    width: 540px;
+    margin: 0 auto;
+}
+.bem {
+    width: 540px;
+    height: 20px;
+    background-color: #f3f3f3;
+    outline: solid 1px #c3c3c3;
+    font-family:monospace;
+}
+.bem2 {
+     width: 540px;
+     height: 30px;
+    background-color: #f3f3f3;
+    outline: solid 1px #c3c3c3;
+    letter-spacing: -1px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    font-family:monospace;
+ }

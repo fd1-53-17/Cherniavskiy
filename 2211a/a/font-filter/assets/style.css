@@ -1,0 +1,75 @@
+.wrapper {
+
+    background-color: #e0e0e0;
+    padding-top: 10px;
+    font-family: monospace;
+    letter-spacing: -1px;
+    width: 340px;
+    height: 390px;
+    margin: 0 auto;
+}
+.header {
+    width: 270px;
+    height: 30px;
+    margin: 0 auto;
+    background-color: #8b8b8b;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    padding: 10px;
+    letter-spacing: -4px;
+    font-weight: 100;
+}
+.list {
+    position: relative;
+    width: 280px;
+    height: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    color: rgba(165, 125, 172, 0.82);
+    font-weight: 600;
+}
+ul {
+    padding-left: 0;
+}
+.lic>ul>li:nth-of-type(n):not(:nth-of-type(n+6)), .size>ul>li:nth-of-type(n+3):not(:nth-of-type(n+6)),
+.downloads>ul>li:nth-of-type(n+3):not(:nth-of-type(n+4)), .sort>ul>li:nth-of-type(n+3):not(:nth-of-type(n+5)){
+    border-bottom: solid #a57dac 1px;
+}
+.size>ul>li:nth-of-type(2):not(:nth-of-type(n+3)), .downloads>ul>li:nth-of-type(n+2):not(:nth-of-type(n+3)),
+.sort>ul>li:nth-of-type(n+2):not(:nth-of-type(n+3)) {
+    width: 130px;
+    height: 17px;
+    background: #a57dac;
+    border-radius: 4px;
+    color: #e4e4e4;
+}
+ul>li:nth-of-type(n):not(:nth-of-type(n+2)) {
+    color: black;
+}
+li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.lic, .downloads {
+    width: 130px;
+    height: 170px;
+    float: left;
+}
+.size, .sort {
+    width: 130px;
+    height: 170px;
+    float: right;
+}
+.ch {
+    content: "a";
+    font-family: "untitled-font-1", monospace;
+    color: #ac8694;
+    display: block;
+
+}
+.qu {
+    content: "b";
+    font-family: "untitled-font-1", monospace;
+    color: #a57dac;
+}
