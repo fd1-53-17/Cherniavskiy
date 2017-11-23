@@ -60,15 +60,18 @@ li {
     height: 170px;
     float: right;
 }
-.ch {
+.ch:before {
     content: "a";
     font-family: "untitled-font-1", monospace;
-    color: #ac8694;
-    display: block;
+    color: #a57dac;
+    display: -webkit-inline-box;
+    height: 12px;
 
 }
-.qu {
+.qu:after {
     content: "b";
     font-family: "untitled-font-1", monospace;
     color: #a57dac;
+    display: -webkit-inline-box;
+    height: 12px;
 }
