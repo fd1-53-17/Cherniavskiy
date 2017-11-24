@@ -18,7 +18,7 @@ div:nth-child(n+33):nth-child(-n+40):nth-child(even), div:nth-child(n+41):nth-ch
 div:nth-child(n+49):nth-child(-n+56):nth-child(even), div:nth-child(n+57):nth-child(-n+64):nth-child(odd) {
     background-color: grey;
 }
-.chessTable>div:nth-of-type(8n+1):before {
+.chessTable>div:nth-of-type(8n+1):before  {
     counter-increment: div;
     content: counter(div);
     display: block;
