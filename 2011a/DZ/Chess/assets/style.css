@@ -1,7 +1,7 @@
 .chessTable  {
     position: relative;
     width: 80vmin;
-    height: 80vmin;
+    height.: 80vmin;
     outline: solid 2px black;
     margin: 10%;
     counter-reset: div;
@@ -116,6 +116,8 @@ div:nth-of-type(5):after {
 }
 div:nth-of-type(6):after {
     content: "F";
+  top: -3vmin;
+    right: 4vmin;
     top: -3vmin;
     right: 4vmin;
 }

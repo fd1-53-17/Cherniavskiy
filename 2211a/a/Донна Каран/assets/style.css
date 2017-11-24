@@ -1,0 +1,35 @@
+.block {
+    height: 200px;
+    width: 400px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.donna {
+    height: 20px;
+    width: 90px;
+    position: absolute;
+    top: 170px;
+    float: left;
+    color: #580c54;
+}
+.quote {
+    height: 62px;
+    width: 225px;
+    border-radius: 5px;
+    background-color: #eab6bb;
+    padding: 15px;
+    position: absolute;
+    top: 53px;
+    color: #f4f4f4;
+}
+.quote:after {
+    border-left: 9px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 33px solid #eab6bb;
+    transform: rotate(38deg) skewY(-38deg);
+    position: absolute;
+    left: 115px;
+    top: 88px;
+    content: "";
+}

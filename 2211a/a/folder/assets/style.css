@@ -1,0 +1,116 @@
+body {
+    background-color: #d5d4cc;
+}
+.folder {
+    width: 60vmin;
+    height: 60vmin;
+    margin-top: 10vmin;
+    margin-left: 20vmin;
+}
+.r, .g, .y {
+    width: 1.5vmin;
+    height: 1.5vmin;
+    border-radius: 2vmin;
+    display: block;
+    position: absolute;
+}
+.r {
+    background-color: rgba(202, 11, 32, 0.82);
+    top: 1vmin;
+    left: 1vmin;
+}
+.g {
+    background-color: rgba(57, 215, 94, 0.9);
+    top: 1vmin;
+    left: 5vmin;
+}
+.y {
+    background-color: #eeb831;
+    top: 1vmin;
+    left: 3vmin;
+}
+.b1 {
+    display: block;
+    position: relative;
+    height: 40vmin;
+    width: 50vmin;
+    background-color: #bc983c;
+    border-radius: 2vmin;
+    z-index: 1;
+}
+.b1:before {
+    height: 10vmin;
+    width: 15vmin;
+    position: absolute;
+    border-radius: 2vmin;
+    top: -2vmin;
+    background-color: #bc983c;
+    display: block;
+    content: "";
+    z-index: 1;
+}
+.l1 {
+    display: block;
+    position: relative;
+    height: 37vmin;
+    width: 40vmin;
+    background-color: #d6d6d6;
+    border-radius: 2vmin;
+    z-index: 2;
+    top: -38vmin;
+    left: 5vmin;
+    transition: transform 0.5s;
+    transform-origin: -50% center;
+}
+.l2 {
+    display: block;
+    position: relative;
+    height: 33vmin;
+    width: 44vmin;
+    background-color: #e5e5e5;
+    border-radius: 2vmin;
+    top: -73vmin;
+    left: 3vmin;
+    z-index: 3;
+    transition: transform 0.5s;
+    transform-origin: -50% center;
+}
+.l3 {
+    display: block;
+    position: relative;
+    height: 33vmin;
+    width: 48vmin;
+    background-color: #f4f4f4;
+    border-radius: 2vmin;
+    top: -104vmin;
+    left: 1vmin;
+    z-index: 4;
+    transition: transform 0.5s;
+    transform-origin: -50% center;
+}
+.l3:hover, .l2:hover, .l1:hover  {
+    transform: translate(0, -2vmin);
+}
+.l3:active {
+    transform: translate(60vmin, 0);
+}
+.b2 {
+    display: block;
+    position: relative;
+    height: 30vmin;
+    width: 50vmin;
+    background-color: #e9bf4a;
+    border-radius: 2vmin;
+    top: -133vmin;
+    z-index: 5;
+}
+.HI {
+    color: #7584e9;
+    font-size: 8vmin;
+    height: 5vmin;
+    width: 44vmin;
+    display: block;
+    position: absolute;
+    top: 10vmin;
+    left: 3vmin;
+}

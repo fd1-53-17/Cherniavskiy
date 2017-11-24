@@ -1,0 +1,74 @@
+.o {
+    width: 50vmin;
+    height: 50vmin;
+    border: 2vmin solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 5vmin;
+    left: 5vmin;
+    z-index: 90;
+}
+.c1, .c2 {
+    width: 8vmin;
+    height: 8vmin;
+    border: 2vmin solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 18vmin;
+    left: 16vmin;
+    z-index: 80;
+}
+.c2 {
+    left: 36vmin;
+}
+.c2:before, .c2:after, .c1:before, .c1:after, .c3:before, .c3:after {
+    background: black;
+    display: block;
+    content: "";
+    width: 2vmin;
+    height: 2vmin;
+    border-radius: 50%;
+    position: absolute;
+    top: 3vmin;
+    left: 7.9vmin;
+    z-index: 90;
+}
+.c2:after, .c1:after {
+    left: -2vmin;
+}
+.line1, .line{
+    background: white;
+    width: 12vmin;
+    height: 7vmin;
+    position: absolute;
+    top: 4vmin;
+    left: -2vmin;
+    z-index: 81;
+}
+.c3 {
+    width: 36vmin;
+    height: 36vmin;
+    border: 2vmin solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 12vmin;
+    left: 12vmin;
+    z-index: 60;
+}
+.c3:before {
+    left: -2vmin;
+    top:17vmin;
+}
+.c3:after{
+    left: 36vmin;
+    top:17vmin;
+}
+.line2 {
+    background: white;
+    width: 40vmin;
+    height: 26vmin;
+    position: absolute;
+    top: -8vmin;
+    left: -2vmin;
+    z-index: 61;
+}
