@@ -1,7 +1,7 @@
-.chessTable {
+.chessTable  {
     position: relative;
     width: 80vmin;
-    height: 80vmin;
+    height.: 80vmin;
     outline: solid 2px black;
     margin: 10%;
     counter-reset: div;
@@ -18,7 +18,7 @@ div:nth-child(n+33):nth-child(-n+40):nth-child(even), div:nth-child(n+41):nth-ch
 div:nth-child(n+49):nth-child(-n+56):nth-child(even), div:nth-child(n+57):nth-child(-n+64):nth-child(odd) {
     background-color: grey;
 }
-.chessTable>div:nth-of-type(8n+1):before {
+.chessTable>div:nth-of-type(8n+1):before  {
     counter-increment: div;
     content: counter(div);
     display: block;
@@ -100,22 +100,24 @@ div:nth-of-type(2):after {
     right: 4vmin;
 }
 div:nth-of-type(3):after {
-     content: "C";
+    content: "C";
     top: -3vmin;
     right: 4vmin;
 }
 div:nth-of-type(4):after {
-      content: "D";
+    content: "D";
     top: -3vmin;
     right: 4vmin;
 }
 div:nth-of-type(5):after {
-       content: "E";
+    content: "E";
     top: -3vmin;
     right: 4vmin;
 }
 div:nth-of-type(6):after {
-        content: "F";
+    content: "F";
+  top: -3vmin;
+    right: 4vmin;
     top: -3vmin;
     right: 4vmin;
 }
