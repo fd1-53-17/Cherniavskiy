@@ -1,0 +1,98 @@
+header, footer, main {
+    width: 1000px;
+    height: 150px;
+    background-color: #bfbfbf;
+    display: block;
+}
+header {
+    height: 150px;
+    border-bottom: solid 1px black;
+}
+footer {
+    height:  225px;
+}
+main {
+    height: 1010px;
+    border-bottom: solid 1px black;
+}
+.header1, .header2, .header3 {
+    height: 108px;
+    background-color: #6e6e6e;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.header1 {
+    width: 122px;
+}
+.header2 {
+    width: 275px;
+}
+.header3 {
+    width: 510px;
+}
+.nav {
+    width: 200px;
+    height: 600px;
+    float: left;
+}
+.menu, .block5, .block {
+    background-color: #6e6e6e;
+    margin-left: 20px;
+    float: left;
+    margin-top: 25px;
+}
+.menu {
+    width: 184px;
+    height: 330px;
+}
+.block5 {
+    width: 755px;
+    height: 200px;
+}
+.block {
+    width: 135px;
+    height: 150px;
+}
+.block7 {
+    width: 184px;
+    height: 130px;
+    background-color: #6e6e6e;
+    margin-left: 20px;
+    margin-top: 700px;
+}
+.block8 {
+    width: 367px;
+    height: 200px;
+    background-color: #6e6e6e;
+    margin-left: 221px;
+    margin-top: 630px;
+}
+.block9 {
+    width: 367px;
+    height: 200px;
+    background-color: #6e6e6e;
+    float: left;
+    margin-left: 605px;
+    margin-top: -200px;
+}
+.fot1, .fot2 {
+    width: 304px;
+    height: 180px;
+    margin-left: 20px;
+    float: left;
+    margin-top: 25px;
+}
+.fot1 {
+    background-color: #6e6e6e;
+}
+.fot12, .fot13 {
+    width: 304px;
+    height: 77px;
+    background-color: #6e6e6e;
+    float: left;
+}
+.fot13 {
+    margin-top: 25px;
+}
+
