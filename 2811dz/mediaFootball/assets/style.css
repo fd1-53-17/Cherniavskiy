@@ -2,11 +2,13 @@
     font-size: 17px;
 }
 .header, .footer {
-    position: relative;
     text-align: center;
     background-color: #b5f6f6;
     color: blue;
     margin-top: 5px;
+}
+.main {
+    display: inline-block;
 }
 .menu {
     width: 221px;
@@ -16,6 +18,9 @@
 .content {
     background: url(img/football1.png) 100% 0 repeat-y;
     background-size: 60px;
+    float: right;
+    background-color: white;
+    width: calc(100vw - 255px);
 }
 img {
     float: left;
@@ -30,18 +35,6 @@ p, h3 {
 @media screen and (max-width: 320px) {
     .wrapper, .header, .footer, .main, .menu, .content {
         width: 305px;
-    }
-    .main {
-        position: relative;
-        height: 710px;
-    }
-    .menu {
-        position: absolute;
-        bottom: 0;
-    }
-    .content {
-        position: absolute;
-        top: 0;
     }
     img {
         margin-left: 50px;
