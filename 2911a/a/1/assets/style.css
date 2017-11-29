@@ -1,4 +1,4 @@
-.header {
+.header, body {
     width: 500px;
     margin: 0 auto;
     /* display: inline-block; */
@@ -33,6 +33,7 @@
     display: none;
 }
 .b1,.b2, .b3 {
+    position: relative;
     border: none;
     display: inline-block;
     border-radius: 50%;
@@ -51,7 +52,25 @@
     background: url(eda.png) no-repeat;
     background-size: 83%;
     transition: all 1s ease-in-out;
-
+}
+#e1:checked~.b1:hover:after, #e1:checked~.b2:hover:after, #e1:checked~.b3:hover:after,
+#e2:checked~.b1:hover:after, #e2:checked~.b2:hover:after, #e2:checked~.b3:hover:after,
+#e3:checked~.b1:hover:after, #e3:checked~.b2:hover:after, #e3:checked~.b3:hover:after {
+    color: red;
+    font-size: 27px;
+    display: block;
+    border-radius: 50%;
+    border: solid 2px #cccccc;
+    box-shadow: 0 0 91px rgb(0, 0, 0);
+    background-color: white;
+    width: 59px;
+    height: 46px;
+    position: absolute;
+    top: 53px;
+    left: 50px;
+    padding-top: 12px;
+    text-align: center;
+    font-weight: bold;
 }
 #e1:checked~.b1 {
     background-position: 68% -.7%;
@@ -79,5 +98,20 @@
 }
 #e3:checked~.b3 {
     background-position: 50% 100.1%;
+}
+#e1:checked~.b1:hover:after,
+#e2:checked~.b1:hover:after,
+#e3:checked~.b1:hover:after{
+    content: "2$";
+}
+#e1:checked~.b2:hover:after,
+#e2:checked~.b2:hover:after,
+#e3:checked~.b2:hover:after {
+    content: "5$";
+}
+#e1:checked~.b3:hover:after,
+#e2:checked~.b3:hover:after,
+#e3:checked~.b3:hover:after {
+    content: "3$";
 }
 
