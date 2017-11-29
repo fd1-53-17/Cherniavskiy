@@ -1,7 +1,6 @@
 .header, body {
     width: 500px;
     margin: 0 auto;
-    /* display: inline-block; */
     font-family: monospace;
 }
 .c1, .c2, .c3 {
@@ -19,6 +18,7 @@
     color: #ffffff;
     padding-top: 3px;
     margin: 31px;
+    z-index: 1;
 }
 .c3 {
     clear: right;
@@ -37,21 +37,31 @@
     border: none;
     display: inline-block;
     border-radius: 50%;
-    box-shadow: 0 1px 10px rgba(0,0,0,0.15);
+    /*box-shadow: 0 1px 10px rgba(0,0,0,0.15);*/
     outline: none;
     width: 161px;
     height: 161px;
     margin-top: 50px;
 }
-.b1 {
-    clear: both;
+.b1:before {
+    content: "Выбери!";
+    position: absolute;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    top: -134px;
+    left: 206px;
 }
 #e1:checked~.b1, #e1:checked~.b2, #e1:checked~.b3,
 #e2:checked~.b1, #e2:checked~.b2, #e2:checked~.b3,
 #e3:checked~.b1, #e3:checked~.b2, #e3:checked~.b3 {
-    background: url(eda.png) no-repeat;
+    background: url(https://raw.githubusercontent.com/fd1-53-17/Cherniavskiy/2911a/2911a/a/1/assets/eda.png) no-repeat;
     background-size: 83%;
-    transition: all 1s ease-in-out;
+    transition: all .5s ease-in-out;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.15);
+}
+#e1:checked~.b1:before, #e2:checked~.b1:before, #e3:checked~.b1:before {
+    display: none;
 }
 #e1:checked~.b1:hover:after, #e1:checked~.b2:hover:after, #e1:checked~.b3:hover:after,
 #e2:checked~.b1:hover:after, #e2:checked~.b2:hover:after, #e2:checked~.b3:hover:after,
