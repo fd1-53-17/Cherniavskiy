@@ -1,4 +1,4 @@
-.header, body {
+.header {
     width: 500px;
     margin: 0 auto;
     font-family: monospace;
@@ -124,4 +124,65 @@
 #e3:checked~.b3:hover:after {
     content: "3$";
 }
-
+@media screen and (max-width: 320px) {
+    header, .c1, .c2, .c3, .b1,.b2, .b3 {
+        width: 310px;
+        margin: 5px;
+    }
+    .b1:before {
+        transform: rotate(90deg);
+        top: -75px;
+    }
+    .b1,.b2, .b3 {
+        height: 310px;
+    }
+    #e1:checked~.b1:hover:after,
+    #e2:checked~.b1:hover:after,
+    #e3:checked~.b1:hover:after,
+    #e1:checked~.b2:hover:after,
+    #e2:checked~.b2:hover:after,
+    #e3:checked~.b2:hover:after,
+    #e1:checked~.b3:hover:after,
+    #e2:checked~.b3:hover:after,
+    #e3:checked~.b3:hover:after {
+        top: 103px;
+        width: 100px;
+        height: 65px;
+        left: 105px;
+        padding-top: 35px;
+        box-shadow: 0 0 123px 20px rgb(0, 0, 0);
+    }
+}
+@media screen and (min-width: 800px) {
+    .header {
+        width: 1000px;
+        margin-top: 150px;
+    }
+    .c1, .c2, .c3, .b1,.b2, .b3 {
+        width: 310px;
+        margin: 5px;
+    }
+    .b1:before {
+        top: -69px;
+        left: 443px;
+    }
+    .b1,.b2, .b3 {
+        height: 310px;
+    }
+    #e1:checked~.b1:hover:after,
+    #e2:checked~.b1:hover:after,
+    #e3:checked~.b1:hover:after,
+    #e1:checked~.b2:hover:after,
+    #e2:checked~.b2:hover:after,
+    #e3:checked~.b2:hover:after,
+    #e1:checked~.b3:hover:after,
+    #e2:checked~.b3:hover:after,
+    #e3:checked~.b3:hover:after {
+        top: 103px;
+        width: 100px;
+        height: 65px;
+        left: 105px;
+        padding-top: 35px;
+        box-shadow: 0 0 123px 20px rgb(0, 0, 0);
+    }
+}
