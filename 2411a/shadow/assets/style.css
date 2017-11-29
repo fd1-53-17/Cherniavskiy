@@ -1,0 +1,9 @@
+.block {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 50%;
+    top: 40px;
+    left: 40px;
+    box-shadow: inset 0 0 4px 7px #000, 0 0 4px 7px #000, 0 0 4px 7px #FFEB3B, 0 0 4px 13px #FF5722, 0 0 4px 19px #4CAF50, 0 0 4px 23px #f0f, 0 0 4px 28px #E91E63, 0 0 4px 32px #00BCD4;
+}

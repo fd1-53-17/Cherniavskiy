@@ -1,0 +1,24 @@
+.row div {
+    transition: transform 1s;
+}
+.row {
+    position: relative;
+    float: left;
+    width: 26px;
+}
+.row>div {
+    display: inline-block;
+}
+.row:hover .l2 {
+    transform: translate(-8px, 0);
+}
+.row:hover .l3 {
+    transform: translate(8px, 0);
+}
+.row:hover .l4 {
+    transform: translate(16px, 0);
+}
+.row:hover .l5 {
+    transform: translate(-16px, 0);
+}
+
