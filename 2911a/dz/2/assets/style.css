@@ -1,0 +1,59 @@
+#menu {
+    display: none;
+}
+#menu~ul {
+    display: none;
+}
+#menu:not(:checked)~label:nth-of-type(2) {
+    display: none;
+}
+#menu:checked+label {
+    display: none;
+}
+#menu:checked~ul {
+    display: block;
+}
+label {
+    text-decoration: underline;
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 90px;
+    border: 1px solid #1868ff;
+}
+a {
+    color: black;
+}
+.list1,
+.list2,
+.list3,
+.list4 {
+    width: 100px;
+    position: absolute;
+    left: 100px;
+    top: 42px;
+    border: 1px solid #ff0032;
+    opacity: 0;
+    padding: 0;
+}
+.list2 {
+    top: 61px;
+}
+.list3 {
+    top: 79px;
+}
+.list4 {
+    top: 97px;
+}
+li:hover>ul {
+    opacity: 1;
+}
+li:hover {
+    background: #8b918e;
+}
+.point:hover:after {
+    content: ">";
+    float: right;
+}

@@ -1,0 +1,160 @@
+.wrapper {
+    margin: 0 auto;
+    font-family: monospace;
+}
+.c1, .c2, .c3 {
+    display: inline-block;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    outline: none;
+    width: 30%;
+    height: 26px;
+    font-size: 21px;
+    font-weight: bold;
+    /* text-align: center; */
+    background-color: #c4f200;
+    color: #ffffff;
+    padding-top: 3px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+}
+.c1:hover, .c2:hover, .c3:hover {
+    background-color: #4f75dd;
+}
+#e1:checked~.c1, #e2:checked~.c2, #e3:checked~.c3 {
+    background-color: #4f75dd;
+}
+#e1, #e2, #e3 {
+    display: none;
+}
+.b1,.b2, .b3 {
+    position: relative;
+    border: none;
+    display: inline-block;
+    border-radius: 50%;
+    /*box-shadow: 0 1px 10px rgba(0,0,0,0.15);*/
+    outline: none;
+    width: 30%;
+    height: 30vw;
+    margin-top: 14%;
+}
+.b1:before {
+    content: "Выбери!";
+    position: absolute;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    top: -10%;
+}
+#e1:checked~.b1, #e1:checked~.b2, #e1:checked~.b3,
+#e2:checked~.b1, #e2:checked~.b2, #e2:checked~.b3,
+#e3:checked~.b1, #e3:checked~.b2, #e3:checked~.b3 {
+    background: url(https://raw.githubusercontent.com/fd1-53-17/Cherniavskiy/2911a/2911a/dz/1/assets/eda.png) no-repeat;
+    background-size: 83%;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.15);
+    box-shadow: 0 1px 10px rgba(0,0,0,0.15);
+}
+#e1:checked~.b1:before, #e2:checked~.b1:before, #e3:checked~.b1:before {
+    display: none;
+}
+#e1:checked~.b1:hover:after, #e1:checked~.b2:hover:after, #e1:checked~.b3:hover:after,
+#e2:checked~.b1:hover:after, #e2:checked~.b2:hover:after, #e2:checked~.b3:hover:after,
+#e3:checked~.b1:hover:after, #e3:checked~.b2:hover:after, #e3:checked~.b3:hover:after {
+    color: red;
+    font-size: 4vw;
+    /* display: table-row; */
+    border-radius: 50%;
+    border: solid 2px #cccccc;
+    -webkit-box-shadow: 0 0 74px 23px rgb(0, 0, 0);
+    box-shadow: 0 0 74px 23px rgb(0, 0, 0);
+    background-color: white;
+    width: 37%;
+    height: 26%;
+    position: absolute;
+    top: 29%;
+    left: 32%;
+    padding-top: 12%;
+    text-align: center;
+    font-weight: bold;
+}
+#e1:checked~.b1 {
+    background-position: 68% -.7%;
+}
+#e1:checked~.b2 {
+    background-position: 62% 11.5%;
+}
+#e1:checked~.b3 {
+    background-position: 41% 25.5%;
+}
+#e2:checked~.b1 {
+    background-position: 68% 38.3%;
+}
+#e2:checked~.b2 {
+    background-position: 62% 50.57%;
+}
+#e2:checked~.b3 {
+    background-position: 50% 63%;
+}
+#e3:checked~.b1 {
+    background-position: 59% 75.7%;
+}
+#e3:checked~.b2 {
+    background-position: 58% 87.57%;
+}
+#e3:checked~.b3 {
+    background-position: 50% 100.1%;
+}
+#e1:checked~.b1:hover:after,
+#e2:checked~.b1:hover:after,
+#e3:checked~.b1:hover:after{
+    content: "2$";
+}
+#e1:checked~.b2:hover:after,
+#e2:checked~.b2:hover:after,
+#e3:checked~.b2:hover:after {
+    content: "5$";
+}
+#e1:checked~.b3:hover:after,
+#e2:checked~.b3:hover:after,
+#e3:checked~.b3:hover:after {
+    content: "3$";
+}
+@media screen and (max-width: 320px) {
+    .c1, .c2, .c3 {
+        width: 100%;
+        margin: 5%;
+        -webkit-transform: rotate(-31deg);
+        -ms-transform: rotate(-31deg);
+        transform: rotate(-31deg);
+        -webkit-transform-origin: 111px -58px;
+        -ms-transform-origin: 111px -58px;
+        transform-origin: 111px -58px;
+    }
+    .b1:before {
+        -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        top: -91px;
+    }
+    .b1, .b2, .b3 {
+        height: 90vw;
+        width: 100%;
+        margin-top: 44px;
+    }
+    #e1:checked~.b1:hover:after, #e2:checked~.b1:hover:after, #e3:checked~.b1:hover:after,
+    #e1:checked~.b2:hover:after, #e2:checked~.b2:hover:after, #e3:checked~.b2:hover:after,
+    #e1:checked~.b3:hover:after, #e2:checked~.b3:hover:after, #e3:checked~.b3:hover:after {
+        font-size: 14vw;
+    }
+}
