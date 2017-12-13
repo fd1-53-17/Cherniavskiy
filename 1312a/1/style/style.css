@@ -10,7 +10,7 @@ body{
 }
 .flex-itm {  background: #2e5b61;   font-size: 2.5rem;   color: #eee;   margin: 5px;   padding: 15px; }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
     .flex {   flex-direction: column-reverse; }
 }
 @media screen and (min-width: 321px) and (max-width: 640px) {
