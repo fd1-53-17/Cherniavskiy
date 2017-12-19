@@ -1,3 +1,7 @@
+body {
+  width: 300px;
+  margin: 0 auto;
+}
 li {
   display: inline-block;
   font-size: 10px;
@@ -7,11 +11,9 @@ ul {
   width: 200px;
 }
 .ad {
-  margin: 20px auto;
+  margin: 20px 80px auto;
   display: block;
   width: 200px;
-  left: 113px;
-  position: absolute;
 }
 #block {
   width: 100px;
@@ -19,7 +21,6 @@ ul {
   box-shadow: 0 0 0 5px black;
 }
 #circle {
-
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -30,9 +31,25 @@ ul {
   border: 50px solid transparent;
   border-right: 50px solid #000000;
 }
-#block:target, #circle:target, #triangle:target {
+#block:target,
+#circle:target,
+#triangle:target {
   display: block;
 }
-#block:not(:target), #circle:not(:target), #triangle:not(:target)  {
+#block:not(:target),
+#circle:not(:target),
+#triangle:not(:target) {
   display: none;
+}
+#circle:target,
+#triangle:target {
+  ~#block {
+    display: none;
+  }
+}
+#circle:not(:target),
+#triangle:not(:target) {
+  ~#block {
+    display: block;
+  }
 }
