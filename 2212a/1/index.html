@@ -24,7 +24,7 @@ alert("Дубов и сосен:"+ counter);
 for (i=0;i<forest.length; i++) {
     if (forest[i] == "пихта")
     {
-        alert ("Пихта есть!");
+        alert ("Также есть пихта!");
         break;
     }
 }
@@ -37,7 +37,16 @@ for (i = 0; i < forest.length; i++) {
         trees[forest[i]]++;
 }
 for(a in trees)
-        alert(a+"\n"+"количество: " + trees[a]);
+var str = "";
+    var species = 0;
+    for (a in trees) {
+        str += a + ":" + trees[a] +"\n";
+        species++
+
+        // alert(a+"\n"+"количество: " + trees[a]);
+    }
+
+    alert(str + "\n" + "\n" + "Уникальных деревьев:" + species);
 
  forest.sort();{
     for (var i = 0; i < forest.length; i++)
@@ -45,8 +54,7 @@ for(a in trees)
             if (forest[i] == forest[j]) forest.splice(j, 1);
             else j++;
         }
-        alert("Уникальных деревьев:" + j);
-        alert("Виды деревьев:"+ "\n" + forest);
+        alert("Наш лес:"+ "\n" + forest);
 }
 </script>
 <body>
